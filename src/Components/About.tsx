@@ -40,7 +40,7 @@ const About = () => {
           font-semibold w-[90%] lg-mx:!text-base sm-mx:!text-sm xs-mx:!text-xs">{Info.bio}</div>
           <div className="flex gap-3">
             <Button onClick={open} className="!text-bgColor !w-fit" size={btn} variant="filled" color="#64FFDA">Check Resume</Button>
-            <Button component="a" href="/Dhruvit_Shah_Resume.pdf"
+            <Button component="a" href="Dhruvit_Shah_Resume.pdf"
              download="Dhruvit Shah" className="!text-primaryColor !w-fit"
               size={btn} variant="outline" color="#64FFDA" 
               rightSection={<IconDownload size={20} />}>Download</Button>
@@ -51,7 +51,7 @@ const About = () => {
           className="w-[325px] h-[325px] lg-mx:!w-64 lg-mx:!h-64 xsm-mx:!w-56 xsm-mx:!h-56 items-center 
           justify-center text-center">
             <img className="w-full h-full rounded-full"
-             src="/dhruv.jpg" alt="profile" />
+             src="dhruv.jpg" alt="profile" />
           </NeonGradientCard>
         </div>
       </div>
