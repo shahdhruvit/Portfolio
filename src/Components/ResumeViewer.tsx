@@ -9,7 +9,7 @@ const ResumeViewer =(props:any)=>{
         <Modal.Header className="!bg-bgColor border-primaryColor  border-2 !border-b-0 !rounded-tl-3xl !rounded-tr-3xl">
             <Modal.Title data-autofocus className="!text-4xl text-white flex gap-3 items-center font-bold">Resume
                 <Tooltip label="Download" className="!text-bgColor" color="#64FFDA" position="right" offset={5}>
-                <ActionIcon className="!text-primaryColor" component="a" href="Dhruvit_Shah_Resume.pdf" download="Dhruvit Shah" variant="outline" color="#64FFDA">
+                <ActionIcon className="!text-primaryColor" component="a" href="build/Dhruvit_Shah_Resume.pdf" download="Dhruvit Shah" variant="outline" color="#64FFDA">
                     <IconArrowBigDownLineFilled/>
                 </ActionIcon>
                 </Tooltip>
