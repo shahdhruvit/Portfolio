@@ -4,7 +4,7 @@ const SkillBadge=(skills:[])=>{
     return skills.map((skill:any, index:number)=><div key={index}
      className="flex gap-2 border border-textColor rounded-2xl items-center
       px-3 py-2 bs-mx:py-0 bs-mx:px-1.5 bs-mx:gap-1 mb-1">
-        <img className="!w-[48px] bs-mx:w-[36px] xsm-mx:w-[28px] !p-1" src={`Icons/${skill}.png`}/>
+        <img className="!w-[48px] bs-mx:w-[36px] xsm-mx:w-[28px] !p-1" src={`build/Icons/${skill}.png`}/>
         <div className="text-textColor text-xl font-medium">{skill}</div>
     </div>)
 }
